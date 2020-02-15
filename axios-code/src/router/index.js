@@ -22,6 +22,11 @@ const routes = [
     path: '/axiosMethod',
     name: 'axios请求方法',
     component: () => import('../views/2-2-axios-method.vue')
+  },
+  {
+    path: '/axiosAll-axiosSpread',
+    name: 'axios并发请求',
+    component: () => import('../views/2-3-axios-all-spread.vue')
   }
 ]
 
